@@ -58,3 +58,74 @@ header{
     font-weight: 600;
     border: none;
 }
+
+/* Failer area styles */
+.failer_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 120px auto;
+}
+.failer_area .img{
+    width: 50%;
+}
+.failer_area .img img{
+    max-width: 520px;
+}
+.failer_area .f_cont{
+    width: 50%;
+}
+.failer_area .f_cont h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 280px;
+    margin-bottom: 20px;
+}
+.failer_area .f_cont p{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.failer_area .f_cont ul li{
+    color:  #444343;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: url('../images/icons/check.svg');
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.plan_area {
+    margin-bottom: 120px;
+}
+.plan_area h2{
+    text-align: center;
+    color:#151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.plan_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align:center ;
+}
+.plan_items img{
+    margin-bottom: 20px;
+}
+.plan_items h3{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.plan_items p{
+    color:#737272;
+    font-size: 25px;
+    font-weight: 500;
+}

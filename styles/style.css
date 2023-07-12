@@ -150,3 +150,101 @@ header{
     margin-bottom: 25px;
     max-width: 450px;
 }
+
+/* Footer area styles here  */
+
+footer{
+    background:#151414;
+    padding: 130px 0;
+}
+.footer_area{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 300px;
+}
+.f_cont{
+    width: 50%;
+}
+.f_cont h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.f_cont p{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.f_cont p a{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.f_cont ul{
+    display: flex;
+    gap: 20px;
+}
+.f_cont ul li{
+    list-style: none;
+}
+.f_cont ul li a{
+    text-decoration: none;
+    display: inline-block;
+    width: 46px;
+    line-height: 46px;
+    background-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.f_cont ul li a .fa-facebook-f{
+    color: #006AFF;
+}
+.f_cont ul li a .fa-twitter{
+    color: #1DA1F2;
+}
+.f_cont ul li a .fa-youtube{
+    color: #FF0000;
+}
+.subscribe{
+    width: 50%;
+}
+.subscribe h2{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.subscribe input[type="email"]{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: #151414;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 20px;
+    outline: 0;
+}
+.subscribe input[type="email"]::placeholder{
+    color: #F3F3F3;
+    font-size: 18px;
+}
+.subscribe input.subs_btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #005FAC;
+    padding: 20px 35px;
+}
+.subscribe input.subs_btn:hover{
+    background: #015396;
+    cursor: pointer;
+}
